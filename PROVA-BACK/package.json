@@ -1,0 +1,33 @@
+{
+  "name": "prova3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src",
+    "dev": "ts-node-dev ./src",
+    "models": "ts-node ./src/models",
+    "militares": "ts-node-dev ./src/indexMilitar.ts",
+    "soldados": "ts-node-dev ./src/indexSoldado.ts",
+    "patentes": "ts-node-dev ./src/indexPatente.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "biblioteca": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.4.0",
+    "prova3": "file:"
+  }
+}
